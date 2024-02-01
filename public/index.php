@@ -27,7 +27,7 @@
             foreach ($kotaDestinasi as $destinasi => $kota) : ?>
                 <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
                     <div class="destinasi_logo-wrapper">
-                        <h4><?= $kota[0] ?></h4>
+                        <a class="fw-bold h4"><?= $kota[0] ?></a>
                         <!-- <img src="../src/img/produk/<?= $kota[1] ?>" alt=""> -->
                     </div>
                 </div>
